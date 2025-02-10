@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Hobby</title>
+<link rel="shortcut icon "type= "image/png"
+href="boy.png"> 
+
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {font-family: "Lato", sans-serif}
+        .mySlides {display: none}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        img {
+            width: 100px; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="Travelling.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRAVELLING</a>
+    <a href="Gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Hobby">HOBBY <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="hobby.html" class="w3-bar-item w3-button">Collecting Figure</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"></i></a>
+  </div>
+</div>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main Container */
+        .hobby-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        /* Individual Hobby Card */
+        .hobby-card {
+            background-color: #fff;
+            width: 300px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for card */
+        .hobby-card:hover {
+            transform: scale(1.05);
+        }
+
+        .hobby-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .hobby-card .content {
+            padding: 20px;
+        }
+
+        .hobby-card .content h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .hobby-card .content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .hobby-card {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!-- Main Section to Display Hobbies -->
+<div class="hobby-container">
+    <!-- Hobby 1 -->
+    <div class="hobby-card">
+        <img src="hirono1.jpg" alt="Hobby 1">
+        <div class="content">
+            <h3>Hirono Figure</h3>
+            <p>Created by contemporary artist Lang, Hirono is a complex character. Through Hirono Lang aims to highlight the subtle fluctuations of life, its ups and downs, and attempts to freeze in time the elusive feelings that reveal our true character – love, joy, sadness, fear, kindness, cowardice and others..</p>
+        </div>
+    </div>
+
+    <!-- Hobby 2 -->
+    <div class="hobby-card">
+        <img src="hirono2.jpg" alt="Hobby 2">
+        <div class="content">
+            <h3>Various Figure</h3>
+            <p>Many individuals grew up playing with toys and action figures, and collecting these items allows them to relive their childhood memories. The toys we played with during our formative years often hold sentimental value, and collecting them as adults allows us to reconnect with our past..</p>
+        </div>
+    </div>
+
+    <!-- Hobby 3 -->
+    <div class="hobby-card">
+        <img src="digimon.jpg" alt="Hobby 3">
+        <div class="content">
+            <h3>Digimon Figure</h3>
+            <p>'Digimon' is derived from the franchise of the same name, and is a combination of 'Digital Monsters'. This signifies the digital origin of these creatures. The term encompasses the diverse digital creatures in the Digimon universe, each possessing unique attributes and types..</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

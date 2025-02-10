@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Travelling</title>
+    <link rel="shortcut icon" type="image/png" href="boy.png"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* General Body Style */
+        body {
+            font-family: "Lato", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 5px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        video {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+        }
+
+        /* Container Style for Content */
+        .w3-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .w3-grey {
+            background-color: #f1f1f1;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="Travelling.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRAVELLING</a>
+        <a href="Gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
+        <a href="Contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="Hobby">HOBBY <i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="hobby.html" class="w3-bar-item w3-button">Collecting Figure</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Travelling Section -->
+<div class="w3-grey" id="Travelling">
+    <div class="w3-container">
+        <h2 class="w3-wide">TRAVELLING</h2>
+        <p class="w3-opacity"><i>WHERE DID I GO?</i></p><br>
+
+        <table>
+            <tr>
+                <th><i>About</i></th>
+                <th><i>Image</i></th>
+            </tr>
+            <tr>
+                <td>Travel to Thailand</td>
+                <td><img src="thailand.jpg" alt="Thailand"></td>
+            </tr>
+            <tr>
+                <td>Travel to Bali</td>
+                <td><img src="Bali.jpg" alt="Bali"></td>
+            </tr>
+            <tr>
+                <td>Travel to Singapore</td>
+                <td><img src="Singapore.jpg" alt="Singapore"></td>
+            </tr>
+        </table>
+
+        
+    </div>
+</div>
+
+<script>
+    // Hamburger Menu Function for smaller screens
+    function myFunction() {
+        var x = document.getElementById("myMenu");
+        if (x.className === "w3-bar-item w3-button w3-padding-large") {
+            x.className += " w3-show";
+        } else {
+            x.className = "w3-bar-item w3-button w3-padding-large";
+        }
+    }
+</script>
+
+</body>
+</html>
